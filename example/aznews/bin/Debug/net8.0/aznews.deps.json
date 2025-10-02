@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "aznews/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
+          "SlugGenerator": "2.0.2"
         },
         "runtime": {
           "aznews.dll": {}
@@ -391,6 +392,14 @@
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "SlugGenerator/2.0.2": {
+        "runtime": {
+          "lib/netcoreapp2.0/SlugGenerator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -845,6 +854,13 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "SlugGenerator/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YnZfqVSdEaD+Ulif5GihlnrQjhSKpA4iDxC+S8i344w90IkBWjGDqYBRbl4aO47kXIDoFyUvWJWzvWNO6LLhXw==",
+      "path": "sluggenerator/2.0.2",
+      "hashPath": "sluggenerator.2.0.2.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

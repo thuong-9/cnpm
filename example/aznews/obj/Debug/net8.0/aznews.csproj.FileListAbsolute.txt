@@ -85,3 +85,4 @@ E:\html\CNPM\example\aznews\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.
 E:\html\CNPM\example\aznews\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\html\CNPM\example\aznews\obj\Debug\net8.0\aznews.csproj.Up2Date
 E:\html\CNPM\example\aznews\obj\Debug\net8.0\aznews.sourcelink.json
+E:\html\CNPM\example\aznews\bin\Debug\net8.0\SlugGenerator.dll

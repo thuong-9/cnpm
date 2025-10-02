@@ -1,4 +1,5 @@
 @using aznews.Models;
+@using aznews.Utilities;
 @model IList<viewPostMenu>
 
 
@@ -17,7 +18,8 @@
                                     var tren = Model.Take(3).ToList();
                                     foreach ( var t in tren)
                                     {
-                                        <li class="news-item"><a href="#">@t.Title</a></li>
+                                        string url = Functions.TitleSlugGeneration("post", t.Title, t.PostID);
+                                        <li class="news-item"><a href="/@url">@t.Title</a></li>
                                     }
                                 }
                             </ul>
@@ -35,10 +37,11 @@
                                 var firstNews = Model.Take(1).ToList();
                                 foreach ( var f in firstNews)
                                 {
+                                    string url = Functions.TitleSlugGeneration("post", f.Title, f.PostID);
                                     <img src="@f.Images" alt="">
                                     <div class="trend-top-cap">
                                         <span>@f.MenuName</span>
-                                        <h2><a href="#">@f.Title</a></h2>
+                                        <h2><a href="/@url">@f.Title</a></h2>
                                     </div>
                                     Model.RemoveAt(0);
                                 }
@@ -52,6 +55,7 @@
                                 var threeNews = Model.Take(3).ToList();
                                 foreach ( var t in threeNews)
                                 {
+                                    string url = Functions.TitleSlugGeneration("post", t.Title, t.PostID);
                                     <div class="col-lg-4">
                                         <div class="single-bottom mb-35">
                                             <div class="trend-bottom-img mb-30">
@@ -60,7 +64,7 @@
                                             <div class="trend-bottom-cap">
                                                 <span class="color1">@t.MenuName</span>
                                                 <h4>
-                                                    <h4><a href="#">@t.Title</a></h4>
+                                                    <h4><a href="/@url">@t.Title</a></h4>
                                                 </h4>
                                             </div>
                                         </div>
@@ -77,13 +81,14 @@
                         var rightNews = Model.ToList();
                         foreach ( var r in rightNews)
                         {
+                            string url = Functions.TitleSlugGeneration("post", r.Title, r.PostID);
                             <div class="trand-right-single d-flex">
                                 <div class="trand-right-img">
                                     <img src="@r.Images" alt="" width="120px">
                                 </div>
                                 <div class="trand-right-cap">
                                     <span class="color1">@r.MenuName</span>
-                                    <h4><a href="#">@r.Title</a></h4>
+                                    <h4><a href="/@url">@r.Title</a></h4>
                                 </div>
                             </div>
                         }
