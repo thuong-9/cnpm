@@ -16,7 +16,7 @@ namespace aznews.Models
         public string? Images { get; set; }
         public string? Link { get; set; }
         public string? Author { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
         public bool? IsActive { get; set; }
         public int PostOrder { get; set; }
         public int MenuID { get; set; }

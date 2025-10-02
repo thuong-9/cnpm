@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pHlEmYrV+P+JLyQdkytKoMCO/YF7ySY84Z6Gdex0f9Y=",
+  "Hash": "vTlQ2Yc0/n0uEQ7izuPZkFiipJ5wjbdyUXUBx4pM8TY=",
   "Source": "aznews",
   "BasePath": "_content/aznews",
   "Mode": "Default",
@@ -4442,6 +4442,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\scss\\style.scss"
+    },
+    {
+      "Identity": "E:\\html\\CNPM\\example\\aznews\\wwwroot\\img\\bao.jpg",
+      "SourceId": "aznews",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\html\\CNPM\\example\\aznews\\wwwroot\\",
+      "BasePath": "_content/aznews",
+      "RelativePath": "img/bao.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bao.jpg"
+    },
+    {
+      "Identity": "E:\\html\\CNPM\\example\\aznews\\wwwroot\\img\\u23.jpg",
+      "SourceId": "aznews",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\html\\CNPM\\example\\aznews\\wwwroot\\",
+      "BasePath": "_content/aznews",
+      "RelativePath": "img/u23.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\u23.jpg"
     }
   ]
 }
